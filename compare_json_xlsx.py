@@ -12,6 +12,7 @@ import re
 import json
 
 filename = 'search_result_autofficina_trentino.json'
+filename = 'search_result_carpenteria_metallica_trentino.json'
 # open search_result_autofficina_trentino.json and close it
 with open(filename, 'r') as f:
     page_dict = json.load(f)
